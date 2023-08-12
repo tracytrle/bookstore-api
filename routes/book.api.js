@@ -11,7 +11,6 @@ const router = express.Router();
  */
 
 router.get("/", (req, res, next) => {
-  //input validation
   const allowedFilter = [
     "author",
     "country",
